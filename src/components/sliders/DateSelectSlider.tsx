@@ -35,7 +35,7 @@ export const DateSelectSlider: FunctionComponent<DateSliderProps> = ({
             onClick={() => {
               onSelectDate(d);
             }}
-            className={`  h-[64px] w-[64px] flex flex-col items-center justify-center py-2 rounded-lg border transition-colors ${
+            className={`h-[64px] w-full md:w-[64px] w-max-[64px] flex flex-col items-center justify-center py-2 rounded-lg border transition-colors ${
               isSelected
                 ? 'bg-pink-50 text-[#DE3A6B] border-none shadow-md'
                 : 'bg-white border-gray-200 text-[#16171B] hover:bg-gray-100'
