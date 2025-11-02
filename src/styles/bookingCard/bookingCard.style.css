@@ -1,0 +1,21 @@
+.date-section .arrow-button {
+  top: 60%;
+}
+
+.date-section .slick-slider {
+  padding: 0 15px;
+}
+
+.time-section .slick-slider {
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .time-section .slick-slider {
+    padding: 0;
+  }
+
+  .date-section .slick-slider {
+    padding: 0;
+  }
+}

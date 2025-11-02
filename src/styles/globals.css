@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background: radial-gradient(circle at 80% 30%, #f99f0b, #a15807);
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-title {
+  font-family: 'Kaisei_Tokumin';
+}

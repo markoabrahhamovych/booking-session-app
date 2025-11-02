@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Booking Session App
 
-## Getting Started
+A modern booking session application built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have installed:
+
+- **Node.js** v18 or higher
+- **npm**, **yarn**, or **pnpm**
+- **Git** (optional)
+
+Check versions:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+### 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd booking-session-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+---
+
+### 🛠 Environment Setup
+
+Create a `.env.local` file in the project root:
+
+```bash
+touch .env.local
+```
+
+Add your environment variables (example):
+
+```
+NEXT_PUBLIC_API_URL=https://your-api-url.com
+```
+
+> ✅ `.env.local` is ignored by Git.
+
+---
+
+### ▶️ Run the Project
+
+Start development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🏗 Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✅ Lint & Formatting
 
-## Deploy on Vercel
+Check lint:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run lint
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fix automatically:
+
+```bash
+npm run lint:fix
+```
+
+---
+
+### 🌀 Tailwind Setup
+
+Tailwind is pre-configured.
+Make sure your CSS includes:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+---
+
+### 📚 Tech Stack
+
+| Tool                         | Purpose         |
+| ---------------------------- | --------------- |
+| Next.js 15                   | App framework   |
+| React 19                     | UI library      |
+| TypeScript                   | Types           |
+| Tailwind CSS                 | Styling         |
+| date-fns                     | Date utils      |
+| ESLint + Prettier            | Code formatting |
+| react-slick / slick-carousel | Slider UI       |
+
+---
+
+### 📂 Recommended Structure
+
+```
+src/
+ ├─ app/ or pages/
+ ├─ components/
+ ├─ hooks/
+ ├─ utils/
+ ├─ styles/
+ └─ assets/
+```
+
+---
+
+### 🎯 Project Scripts
+
+| Command            | Action                  |
+| ------------------ | ----------------------- |
+| `npm run dev`      | Run development server  |
+| `npm run build`    | Build production bundle |
+| `npm start`        | Start production server |
+| `npm run lint`     | Lint code               |
+| `npm run lint:fix` | Fix lint issues         |
+
+---
+
+### ✅ Now You're Ready!
+
+Start coding and enjoy developing your booking session platform! ✨
+
+If you need help deploying to **Vercel**, customizing ESLint/Prettier, or adding CI/CD — just ask! 🚀
