@@ -18,4 +18,8 @@
   .date-section .slick-slider {
     padding: 0;
   }
+  .time-section .arrow-button,
+  .date-section .arrow-button {
+    display: none;
+  }
 }

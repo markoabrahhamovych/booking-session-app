@@ -8,12 +8,13 @@ export function NextArrow({ onClick, currentSlide, slideCount }: SlickArrowProps
     typeof currentSlide === 'number' &&
     typeof slideCount === 'number' &&
     currentSlide >= slideCount - 1;
+
   return (
     <button
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className={`arrow-button arrow-next absolute h-10 top-1/2 -translate-y-1/2 z-10 p-1  cursor-pointer right-[-20px] ${
+      className={` arrow-button arrow-next absolute h-10 top-1/2 -translate-y-1/2 z-10 p-1  cursor-pointer right-[-20px] ${
         disabled ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700'
       }`}
     >

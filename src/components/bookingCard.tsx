@@ -70,7 +70,7 @@ function BookingCard(): React.JSX.Element {
      flex flex-col md:justify-center justify-start mt-[100px] md:mt-0 items-start md:items-center mb:justify-center  md:p-6"
     >
       {mobileElement}
-      <div className="fixed top-[25vw]  bg-[#cc7225] right-[-16vw] sm:min-h-0 min-h-[540] block md:hidden z-[1] w-[250px] h-[250px]  border-4 border-[#FFAD32] rounded-full" />
+      <div className="fixed top-[25vw]  bg-[#cc7225] right-[-16vw] sm:min-h-0  block md:hidden z-[1] w-[250px] h-[250px]  border-4 border-[#FFAD32] rounded-full" />
       {formContainerElement}
     </div>
   );

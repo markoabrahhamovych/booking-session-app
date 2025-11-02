@@ -5,6 +5,7 @@ import { SlickArrowProps } from '@/types/components/arrows';
 
 export function PrevArrow({ onClick, currentSlide }: SlickArrowProps) {
   const disabled = currentSlide === 0;
+
   return (
     <button
       type="button"

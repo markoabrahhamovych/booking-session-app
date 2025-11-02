@@ -9,7 +9,6 @@ export const dateSliderSettings = {
   slidesToScroll: 3,
   swipeToSlide: true,
   initialSlide: 0,
-  arrows: true,
   prevArrow: <PrevArrow />,
   nextArrow: <NextArrow />,
   responsive: [

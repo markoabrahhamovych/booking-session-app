@@ -4,4 +4,6 @@ export interface SlickArrowProps {
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   currentSlide?: number;
   slideCount?: number;
+  isVisible: boolean;
+  className: string;
 }
