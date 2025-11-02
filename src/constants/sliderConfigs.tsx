@@ -28,7 +28,8 @@ export const dateSliderSettings = {
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 5.2,
+        slidesToShow: 5.1,
+        swipeToSlide: true,
         arrows: false,
       },
     },
@@ -62,7 +63,8 @@ export const timeSliderSettings = {
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 4.2,
+        slidesToShow: 4.1,
+        swipeToSlide: true,
         arrows: false,
       },
     },
